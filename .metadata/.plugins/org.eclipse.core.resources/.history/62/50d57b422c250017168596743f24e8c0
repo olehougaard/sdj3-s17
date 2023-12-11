@@ -1,0 +1,39 @@
+package dbs;
+
+import java.util.Date;
+
+public class Booking {
+	private int hotelNo;
+	private int roomNo;
+	private Date dateFrom;
+	private Date dateTo;
+	private int guestNo;
+	
+	public Booking(int hotelNo, int roomNo, Date dateFrom, Date dateTo, int guestNo) {
+		this.hotelNo = hotelNo;
+		this.roomNo = roomNo;
+		this.dateFrom = dateFrom;
+		this.dateTo = dateTo;
+		this.guestNo = guestNo;
+	}
+
+	public int getHotelNo() {
+		return hotelNo;
+	}
+
+	public int getRoomNo() {
+		return roomNo;
+	}
+
+	public Date getDateFrom() {
+		return dateFrom;
+	}
+
+	public Date getDateTo() {
+		return dateTo;
+	}
+
+	public int getGuestNo() {
+		return guestNo;
+	}
+}

@@ -1,0 +1,37 @@
+package dbs;
+
+public class Room implements Comparable<Room> {
+	private int hotelNo;
+	private int roomNo;
+	private double price;
+	private String type;
+	
+	public Room(int hotelNo, int roomNo, double price, String type) {
+		this.hotelNo = hotelNo;
+		this.roomNo = roomNo;
+		this.price = price;
+		this.type = type;
+	}
+
+	public int getHotelNo() {
+		return hotelNo;
+	}
+
+	public int getRoomNo() {
+		return roomNo;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	@Override
+	public int compareTo(Room that) {
+		if (hotelNo != that.hotelNo) return Integer.compare(hotelNo, that.hotelNo);
+		return Integer.compare(roomNo, that.roomNo);
+	}
+}

@@ -1,0 +1,11 @@
+package ajp;
+
+import java.io.File;
+
+public class ListFilterTimer {
+	public static void main(String[] args) {
+		long start = System.currentTimeMillis();
+		File dir = new File("Z:/olehougaard/Smut/Comix/Single-Panel");
+		System.out.println(dir.isDirectory());
+	}
+}

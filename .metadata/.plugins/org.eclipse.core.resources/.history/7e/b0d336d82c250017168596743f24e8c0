@@ -1,0 +1,15 @@
+package dbs;
+
+import java.util.ArrayList;
+
+public class JoinTest {
+
+	public static void main(String[] args) {
+		ArrayList<Room> rooms = new ArrayList<>();
+		ArrayList<Booking> bookings = new ArrayList<>();
+		
+		// Fill lists here ...
+		
+		
+	}
+}

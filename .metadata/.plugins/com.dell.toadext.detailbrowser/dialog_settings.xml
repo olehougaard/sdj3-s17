@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.dell.toadext.postgre.detailviewer.PgQueryResultViewer">
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#car">
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#booking">
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#room">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#roominfo">
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotel">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#course">
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#taught">
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotel2">
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#guest">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#classes">
+		</section>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgTableDataViewer">
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotels.room">
+			<item value=",,,,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotels.roominfo">
+			<item value=",,,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#classes.classes">
+			<item value=",,,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#classes.course">
+			<item value=",,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotels.hotel2">
+			<item value=",,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotels.guest">
+			<item value=",,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#classes.taught">
+			<item value=",,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#car_base.car">
+			<item value=",,,,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotels.hotel">
+			<item value=",,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotels.booking">
+			<item value=",,,,,," key="col.widths"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="file:///C:/Users/oih/Downloads/localhost.wsdl"/>
+		<item value="http://localhost:8080/car_ws/services/CarService?wsdl"/>
+		<item value="/car_ws_client/CarService.wsdl"/>
+		<item value="/car_ws/WebContent/wsdl/CarService.wsdl"/>
+		<item value="/car_ws/WebContent/wsdl/CarDAO.wsdl"/>
+	</list>
+</section>

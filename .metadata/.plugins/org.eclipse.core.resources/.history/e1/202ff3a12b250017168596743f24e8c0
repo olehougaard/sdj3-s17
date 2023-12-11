@@ -1,0 +1,9 @@
+package dbs;
+
+public class JoinTest {
+
+	public JoinTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

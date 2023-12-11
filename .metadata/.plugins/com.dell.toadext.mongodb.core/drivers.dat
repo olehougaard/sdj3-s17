@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="drivers">
+	<item value="&lt;com.dell.toadext.mongodb.core.service.impl.DriversList serialization=&quot;custom&quot;&gt;&#x0A;  &lt;unserializable-parents/&gt;&#x0A;  &lt;list&gt;&#x0A;    &lt;default&gt;&#x0A;      &lt;size&gt;1&lt;/size&gt;&#x0A;    &lt;/default&gt;&#x0A;    &lt;int&gt;1&lt;/int&gt;&#x0A;    &lt;string&gt;&amp;lt;invalid&amp;gt;&lt;/string&gt;&#x0A;  &lt;/list&gt;&#x0A;  &lt;com.dell.toadext.mongodb.core.service.impl.DriversList&gt;&#x0A;    &lt;default&gt;&#x0A;      &lt;version&gt;1&lt;/version&gt;&#x0A;    &lt;/default&gt;&#x0A;  &lt;/com.dell.toadext.mongodb.core.service.impl.DriversList&gt;&#x0A;&lt;/com.dell.toadext.mongodb.core.service.impl.DriversList&gt;" key="drivers"/>
+</section>

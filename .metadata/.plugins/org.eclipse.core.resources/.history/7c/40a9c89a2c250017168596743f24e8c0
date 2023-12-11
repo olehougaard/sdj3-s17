@@ -1,0 +1,30 @@
+package dbs;
+
+public class Guest implements Comparable<Guest> {
+	private int guestNo;
+	private String name;
+	private String address;
+	
+	public Guest(int guestNo, String name, String address) {
+		this.guestNo = guestNo;
+		this.name = name;
+		this.address = address;
+	}
+	
+	public int getGuestNo() {
+		return guestNo;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	@Override
+	public int compareTo(Guest that) {
+		return Integer.compare(this.guestNo, that.guestNo);
+	}
+}

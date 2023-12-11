@@ -1,0 +1,26 @@
+2017-03-23 11:41:34,736 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1928100ms
+2017-03-23 11:41:35,063 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2017-03-23 11:41:35,120 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d9de918{/wse,null,AVAILABLE}
+2017-03-23 11:41:35,208 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5e320949{HTTP/1.1}{0.0.0.0:50463}
+2017-03-23 11:41:35,209 [main] INFO  org.eclipse.jetty.server.Server - Started @1928575ms
+2017-03-23 11:56:55,996 [Framework stop] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5e320949{HTTP/1.1}{0.0.0.0:0}
+2017-03-23 11:56:56,178 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1d9de918{/wse,null,UNAVAILABLE}
+2017-03-24 09:51:25,916 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2372612ms
+2017-03-24 09:51:26,180 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2017-03-24 09:51:26,224 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1042c0d6{/wse,null,AVAILABLE}
+2017-03-24 09:51:26,256 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@6e1d9910{HTTP/1.1}{0.0.0.0:62166}
+2017-03-24 09:51:26,256 [main] INFO  org.eclipse.jetty.server.Server - Started @2372953ms
+2017-03-28 10:09:52,369 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @90126ms
+2017-03-28 10:09:52,606 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2017-03-28 10:09:53,378 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@33e2808e{/wse,null,AVAILABLE}
+2017-03-28 10:09:53,422 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5b3847f5{HTTP/1.1}{0.0.0.0:61917}
+2017-03-28 10:09:53,423 [main] INFO  org.eclipse.jetty.server.Server - Started @91182ms
+2017-03-30 12:56:04,804 [Framework stop] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5b3847f5{HTTP/1.1}{0.0.0.0:0}
+2017-03-30 12:56:06,497 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@33e2808e{/wse,null,UNAVAILABLE}
+2018-03-21 07:57:17,075 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-04-16 09:40:31,689 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-09-14 09:49:58,744 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-11-23 11:18:14,138 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-05 12:00:33,371 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-10 17:52:00,629 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-08 20:24:48,138 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487065236192_1" label="car" name="car">
+<item elementID="=car_shared" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=car_client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=car_server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487065254200_2" label="badbank" name="badbank">
+<item elementID="=badbank_branch" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=badbank_shared" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=badbank_hq" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=badbank_client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487593592606_3" label="3tier" name="3tier">
+<item elementID="=3tier_car_shared" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=3tier_car_client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=3tier_car_server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=3tier_car_data" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487690339810_4" label="betterbank" name="betterbank">
+<item elementID="=betterbank_branch" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=betterbank_main" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=betterbank_hq" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=betterbank_shared" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=betterbank_dao" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=betterbank_client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1488955600353_5" label="xml" name="xml">
+<item elementID="=xml" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1489646744018_6" label="dbs1" name="dbs1">
+<item elementID="=jdbc" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1489657281329_7" label="web" name="web">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item elementID="=car_web" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=car_ws_client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=numbers" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=car_ws" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1492758626919_8" label="RWS" name="RWS">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/UserRWS" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item elementID="=RWSClient" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1486632372363_0" label="Window Working Set" name="Aggregate for window 1486632372362"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1494408565503_10" label="Multiple Working Sets" name="Aggregate:badbank:betterbank:">
+<workingSet IMemento.internal.id="badbank"/>
+<workingSet IMemento.internal.id="betterbank"/>
+</workingSet>
+<mruList name="betterbank"/>
+<mruList name="RWS"/>
+<mruList name="web"/>
+<mruList name="dbs1"/>
+<mruList name="xml"/>
+</workingSetManager>

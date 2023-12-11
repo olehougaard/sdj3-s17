@@ -1,0 +1,24 @@
+package bank.transaction;
+
+import java.rmi.RemoteException;
+
+import bank.model.AccountNumber;
+import bank.model.Money;
+import bank.model.TransactionDetails;
+
+public class DepositTransaction extends AbstractTransaction implements Transaction {
+	public DepositTransaction(Money amount, AccountNumber accountNumber) {
+		this(amount, accountNumber, "Deposited " + amount);
+	}
+	
+	DepositTransaction(Money amount, AccountNumber accountNumber, String text) {
+		this.amount = amount;
+		this.accountNumber = accountNumber;
+		this.text = text;
+	}
+
+	@Override
+	public TransactionDetails accept(TransactionVisitor visitor) throws RemoteException {
+		return visitor.deposit(this);
+	}
+}

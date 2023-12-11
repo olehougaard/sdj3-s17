@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from CarServiceService WSDL service -->
+
+  <service name="CarService" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://cars.via.dk"/>
+      <parameter name="wsdlServiceElement" value="CarServiceService"/>
+      <parameter name="schemaQualified" value="http://cars.via.dk"/>
+      <parameter name="wsdlServicePort" value="CarService"/>
+      <parameter name="className" value="dk.via.cars.CarService"/>
+      <parameter name="wsdlPortType" value="CarService"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://cars.via.dk" name="delete" qname="operNS:delete" soapAction="">
+        <parameter xmlns:pns="http://cars.via.dk" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:license_number" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://cars.via.dk" xmlns:retNS="http://cars.via.dk" xmlns:rtns="http://cars.via.dk" name="create" qname="operNS:create" returnQName="retNS:createReturn" returnType="rtns:CarDTO" soapAction="">
+        <parameter xmlns:pns="http://cars.via.dk" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:licenseNo" type="tns:string"/>
+        <parameter xmlns:pns="http://cars.via.dk" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:model" type="tns:string"/>
+        <parameter xmlns:pns="http://cars.via.dk" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:year" type="tns:int"/>
+        <parameter xmlns:pns="http://cars.via.dk" xmlns:tns="http://cars.via.dk" qname="pns:price" type="tns:MoneyDTO"/>
+      </operation>
+      <operation xmlns:operNS="http://cars.via.dk" xmlns:retNS="http://cars.via.dk" xmlns:rtns="http://cars.via.dk" name="readAll" qname="operNS:readAll" returnQName="retNS:readAllReturn" returnType="rtns:CarDTO" soapAction="">
+      </operation>
+      <parameter name="allowedMethods" value="create delete readAll"/>
+
+      <typeMapping xmlns:ns="http://cars.via.dk" qname="ns:MoneyDTO" type="java:dk.via.cars.MoneyDTO" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://cars.via.dk" qname="ns:CarDTO" type="java:dk.via.cars.CarDTO" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+  </service>
+</deployment>

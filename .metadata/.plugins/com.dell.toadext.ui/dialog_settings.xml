@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="OpenRecentFiles">
+		<item value="C:\Users\oih\Dropbox\Courses\DBS1 S17\normalization process.sql"/>
+		<item value="B:\Courses\DBS1 S17\trigger.sql"/>
+		<item value="B:\Courses\DBS1 S17\select.sql"/>
+	</list>
+	<section name="com.dell.toadext.postgre.detailviewer.PgViewTriggersViewer">
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgTriggersViewer">
+	</section>
+	<section name="com.dell.toadext.view.connection.actions.LinkWithEditorAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.connection.actions.LinkWithEditorAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgDboDataViewer">
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#normalization.accounts">
+			<item value=",,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#normalization.account_types">
+			<item value=",,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#normalization.bank_transactions">
+			<item value=",,,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotel.room">
+			<item value=",,,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#normalization.customers">
+			<item value=",,,," key="col.widths"/>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotel.hotel">
+			<item value=",,,," key="col.widths"/>
+		</section>
+	</section>
+	<section name="com.dell.toadext.editor.AbstractEditorExtension$HideResultSetAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.LockAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.connection.view.handlers.GroupByDbHandler">
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowDataAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="aliases_section">
+		<list key="aliases">
+		</list>
+		<list key="queryables">
+		</list>
+	</section>
+	<section name="com.dell.toadext.view.monitor.AbstractConnectionMonitorView$LockAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.connection.monitor.DbmsOutputView">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.ui.pages.ToadextOutlinePage$OutlineSortAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowErrorsAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.detailbrowser.AbstractColumnsViewer$ShowCommentAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.view.connection.view.handlers.GroupByDbHandler">
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowInputAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.DbConsoleView">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.connection.monitor.AbstractConnectionMonitorView$EnableAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.quickdoc.QuickDocView$LinkWithSelectionAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.editor.AbstractEditorExtension$RightAlignResultSet">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.view.monitor.DbmsOutputView">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.schemabrowser.actions.DisplayDescribeObjectEditorAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.editor.SqlEditor">
+		<section name="saveToFile">
+			<item value="C:\Users\oih\Dropbox\Courses\DBS1 S17\normalization process.sql" key="filename"/>
+			<item value="C:\Users\oih\Dropbox\Courses\DBS1 S17" key="pathname"/>
+		</section>
+	</section>
+	<section name="com.dell.toadext.schemabrowser.actions.LinkWithEditorAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgIndexesViewer">
+	</section>
+	<section name="com.dell.toadext.oracle.nui.editor.OraSqlEditorExtension">
+		<section name="editorWeights">
+			<item value="500" key="rsWeight"/>
+			<item value="500" key="editorWeight"/>
+		</section>
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.view.monitor.AbstractConnectionMonitorView$EnableAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.plsqlviewer.pldoc.QuickDocView$LinkWithSelectionAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.connection.monitor.AbstractConnectionMonitorView$LockAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgViewColumnsViewer">
+	</section>
+	<section name="com.dell.toadext.detailbrowser.viewer.AbstractQueryResultViewer$SortColumnsAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgConstraintsViewer">
+	</section>
+	<section name="com.dell.toadext.editor.SqlEditorExtension$HideResultSetAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgTableColumnsViewer">
+	</section>
+	<section name="com.dell.toadext.editor.AbstractEditorExtension$BottomAlignResultSet">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.editor.SqlEditorExtension$RightAlignResultSet">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.editor.SqlEditorExtension$BottomAlignResultSet">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowStandardLogsAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.wizards.data.ConverterProperty">
+	</section>
+	<section name="com.dell.toadext.postgre.ui.editor.PgEditorExtension">
+		<section name="editorWeights">
+			<item value="242" key="rsWeight"/>
+			<item value="757" key="editorWeight"/>
+		</section>
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.detailbrowser.AbstractColumnsViewer$SortColumnsAction">
+		<item value="false" key="active"/>
+	</section>
+</section>

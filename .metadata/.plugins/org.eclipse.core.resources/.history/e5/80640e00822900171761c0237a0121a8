@@ -1,0 +1,144 @@
+package dk.via.user;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class UserRWS
+ */
+@WebServlet({ "/users", "/users/*" })
+public class UserRWS extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	private Integer getRequestId(HttpServletRequest request) {
+		String[] elements = request.getRequestURL().toString().split("/");
+		String lastElement = elements[elements.length - 1];
+		if (lastElement.equals("users")) {
+			return null;
+		} else {
+			if (!elements[elements.length - 2].equals("users")) {
+				throw new IllegalArgumentException("Malformed URL");
+			}
+			return new Integer(lastElement);
+		}
+	}
+
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Integer requestId;
+		try {
+			requestId = getRequestId(request);
+		} catch (Exception e) {
+			response.sendError(400);
+			return;
+		}
+		ServletOutputStream out = response.getOutputStream();
+		if (requestId == null) {
+			JSONUtil.write(out, UserDAO.getUsers());
+		} else {
+			User user = UserDAO.getUser(requestId);
+			if (user == null) {
+				response.sendError(404);
+				return;
+			}
+			JSONUtil.write(out, user);
+		}
+		out.flush();
+	}
+
+	@Override
+	protected void doDelete(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Integer requestId;
+		try {
+		requestId = getRequestId(request);
+		} catch (Exception e) {
+			response.sendError(400);
+			return;
+		}
+		if (requestId == null) {
+			response.sendError(405);
+		} else {
+			User user = UserDAO.getUser(requestId);
+			if (user == null) {
+				response.sendError(404);
+				return;
+			}
+			UserDAO.deleteUser(requestId);
+			ServletOutputStream out = response.getOutputStream();
+			JSONUtil.write(out, user);
+			out.flush();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Integer requestId;
+		try {
+			requestId = getRequestId(request);
+		} catch (Exception e) {
+			response.sendError(400);
+			return;
+		}
+		User user = JSONUtil.read(request.getInputStream(), User.class);
+		ServletOutputStream out = response.getOutputStream();
+		if (requestId == null) {
+			User newUser = UserDAO.createUser(user.getName(), user.getEmail());
+			JSONUtil.write(out, newUser);
+		} else {
+			user.setId(requestId);
+			UserDAO.updateUser(user);
+			JSONUtil.write(out, user);
+		}
+		out.flush();
+	}
+
+	@Override
+	protected void doPut(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Integer requestId;
+		try {
+			requestId = getRequestId(request);
+		} catch (Exception e) {
+			response.sendError(400);
+			return;
+		}
+		if (requestId == null) {
+			response.sendError(405);
+		} else {
+			User user = JSONUtil.read(request.getInputStream(), User.class);
+			user.setId(requestId);
+			user = UserDAO.createOrUpdate(user);
+			ServletOutputStream out = response.getOutputStream();
+			JSONUtil.write(out, user);
+			out.flush();
+		}
+	}
+
+	@Override
+	protected void doOptions(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Integer requestId;
+		try {
+			requestId = getRequestId(request);
+		} catch (Exception e) {
+			response.sendError(400);
+			return;
+		}
+		ServletOutputStream out = response.getOutputStream();
+		if (requestId == null) {
+			out.println("Allowed: GET, POST");
+		} else {
+			out.println("Allowed: GET, POST, PUT, DELETE");
+		}
+		out.flush();
+	}
+}

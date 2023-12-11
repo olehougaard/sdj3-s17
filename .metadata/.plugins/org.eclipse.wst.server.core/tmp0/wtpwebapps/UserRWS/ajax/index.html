@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="model.js"></script>
+        <script src="view.js"></script>
+        <script src="controller.js"></script>
+        <script src="onload.js"></script>
+    </head>
+    <body onload="onload();">
+        <table>
+            <thead>
+                <tr><th>Id</th><th>User</th><th>email</th></tr>
+            </thead>
+            <tbody id='users'>
+            </tbody>
+        </table>
+        <p>
+            User: <input type="text" id="name">
+            email: <input type="text" id="email">
+            <button id="addButton">Add User</button>
+        </p>
+    </body>
+</html>

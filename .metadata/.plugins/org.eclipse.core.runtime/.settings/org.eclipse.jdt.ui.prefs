@@ -1,0 +1,35 @@
+Refactoring.savealleditors=true
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Number"><rhs name\="java.math.BigDecimal"/></lhs><lhs name\="java.math.BigDecimal"><rhs name\="java.math.BigDecimal"/></lhs><lhs name\="bank.HeadQuarters"><rhs name\="bank.RemoteHQ"/></lhs><lhs name\="java.rmi.Remote"><rhs name\="bank.RemoteHQ"/><rhs name\="bank.RemoteAccount$DepositTransaction"/><rhs name\="bank.RemoteAccount$WithdrawTransaction"/><rhs name\="bank.RemoteBranch"/><rhs name\="java.rmi.server.UnicastRemoteObject"/><rhs name\="bank.dao.TransactionDAOService"/></lhs><lhs name\="bank.RemoteHQ"><rhs name\="bank.RemoteHQ"/></lhs><lhs name\="bank.Transaction"><rhs name\="bank.RemoteAccount$DepositTransaction"/><rhs name\="bank.RemoteAccount$WithdrawTransaction"/></lhs><lhs name\="bank.Branch"><rhs name\="bank.RemoteBranch"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Deque"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Queue"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractSequentialList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.LinkedList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="cars.DatabaseHelper"><rhs name\="cars.DatabaseHelper"/></lhs><lhs name\="bank.dao.DatabaseHelper"><rhs name\="bank.dao.DatabaseHelper"/></lhs><lhs name\="bank.dao.DataMapper"><rhs name\="bank.dao.CustomerDAOService$CustomerMapper"/><rhs name\="bank.dao.TransactionDAOService$TransactionMapper"/><rhs name\="bank.dao.AccountDAOService$AccountMapper"/><rhs name\="bank.dao.CustomerDAOService$CustomerAccountMapper"/></lhs><lhs name\="bank.dao.BranchDTO"><rhs name\="bank.dao.BranchDTO"/></lhs><lhs name\="bank.dao.TransactionDAO"><rhs name\="bank.dao.TransactionDAOService"/></lhs><lhs name\="java.sql.Driver"><rhs name\="org.postgresql.Driver"/></lhs><lhs name\="data.CarDAO"><rhs name\="data.CarDAO"/></lhs><lhs name\="cars.CarDTO"><rhs name\="cars.CarDTO"/></lhs><lhs name\="dk.via.cars.MoneyDTO"><rhs name\="dk.via.cars.MoneyDTO"/></lhs><lhs name\="java.lang.Enum"><rhs name\="javax.servlet.annotation.ServletSecurity$TransportGuarantee"/></lhs><lhs name\="bank.ExchangeRate"><rhs name\="bank.ExchangeRate"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="bank.dao.AccountDAOService$AccountMapper"><rhs name\="bank.dao.AccountDAOService$AccountMapper"/></lhs><lhs name\="bank.dao.CustomerDAOService$CustomerAccountMapper"><rhs name\="bank.dao.CustomerDAOService$CustomerAccountMapper"/></lhs><lhs name\="bank.model.TransactionDetails"><rhs name\="bank.model.TransactionDetails"/></lhs><lhs name\="java.io.IOException"><rhs name\="java.rmi.RemoteException"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.rmi.RemoteException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.rmi.RemoteException"/></lhs><lhs name\="java.rmi.RemoteException"><rhs name\="java.rmi.RemoteException"/></lhs><lhs name\="bank.transaction.Transaction"><rhs name\="bank.transaction.WithdrawTransaction"/></lhs><lhs name\="rent.dao.TenantDAO"><rhs name\="rent.dao.TenantDAO"/></lhs><lhs name\="dk.via.user.User"><rhs name\="dk.via.user.User"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=13
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+proposalOrderMigrated=true
+spelling_ignore_ampersand_in_properties=true
+spelling_ignore_digits=true
+spelling_ignore_java_strings=true
+spelling_ignore_mixed=true
+spelling_ignore_non_letters=true
+spelling_ignore_sentence=true
+spelling_ignore_single_letters=true
+spelling_ignore_upper=true
+spelling_ignore_urls=true
+spelling_locale=en_GB
+spelling_locale_initialized=true
+spelling_user_dictionary_encoding=
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

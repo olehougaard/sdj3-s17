@@ -1,0 +1,22 @@
+package dk.via.cars;
+
+import java.math.BigDecimal;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CarTest {
+	private CarService carService;
+
+	@Before
+	public void setUp() {
+		CarServiceServiceLocator locator = new CarServiceServiceLocator();
+		carService = locator.getCarService();
+	}
+
+	@Test
+	public void testCreate() {
+		carService.create("AV 12 546", "Ford", 2012, new MoneyDTO(new BigDecimal(100000), "EUR"));
+	}
+
+}

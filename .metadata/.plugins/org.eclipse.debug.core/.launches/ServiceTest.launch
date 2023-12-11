@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/RWSClient/src/ServiceTest.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="ServiceTest"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RWSClient"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Djavax.net.ssl.trustStore=&quot;C:\Users\oih\Downloads\clientstore&quot;&#13;&#10;-Djavax.net.ssl.keyStorePassword=password&#13;&#10;-Djavax.net.ssl.keyStoreType=JKS"/>
+</launchConfiguration>

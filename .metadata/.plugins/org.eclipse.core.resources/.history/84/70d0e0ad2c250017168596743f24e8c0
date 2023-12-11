@@ -1,0 +1,45 @@
+package dbs;
+
+import java.util.Date;
+
+public class Booking implements Comparable<Booking> {
+	private int hotelNo;
+	private int roomNo;
+	private Date dateFrom;
+	private Date dateTo;
+	private int guestNo;
+	
+	public Booking(int hotelNo, int roomNo, Date dateFrom, Date dateTo, int guestNo) {
+		this.hotelNo = hotelNo;
+		this.roomNo = roomNo;
+		this.dateFrom = dateFrom;
+		this.dateTo = dateTo;
+		this.guestNo = guestNo;
+	}
+
+	public int getHotelNo() {
+		return hotelNo;
+	}
+
+	public int getRoomNo() {
+		return roomNo;
+	}
+
+	public Date getDateFrom() {
+		return dateFrom;
+	}
+
+	public Date getDateTo() {
+		return dateTo;
+	}
+
+	public int getGuestNo() {
+		return guestNo;
+	}
+
+	@Override
+	public int compareTo(Booking that) {
+		if (this.hotelNo != that.hotelNo) return Integer.compare(this.hotelNo, that.hotelNo);
+		return Integer.compare(this.roomNo, that.roomNo);
+	}
+}

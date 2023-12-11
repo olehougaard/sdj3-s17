@@ -1,0 +1,26 @@
+package dk.via.cars;
+
+import java.math.BigDecimal;
+import java.rmi.RemoteException;
+
+import javax.xml.rpc.ServiceException;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CarTest {
+	private CarService carService;
+
+	@Before
+	public void setUp() throws ServiceException {
+		CarServiceServiceLocator locator = new CarServiceServiceLocator();
+		carService = locator.getCarService();
+	}
+
+	@Test
+	public void testCreate() throws RemoteException {
+		CarDTO car = carService.create("AV 12 546", "Ford", 2012, new MoneyDTO(new BigDecimal(100000), "EUR"));
+		assertEquals("AV 12 546", car.getLicenseNumber());
+	}
+
+}

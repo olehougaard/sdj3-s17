@@ -1,0 +1,30 @@
+package bank.transaction;
+
+import bank.model.AccountNumber;
+import bank.model.Money;
+
+public abstract class AbstractTransaction implements Transaction {
+
+	protected Money amount;
+	protected AccountNumber accountNumber;
+	protected String text;
+
+	DepositTransaction(Money amount, AccountNumber accountNumber, String text) {
+		this.amount = amount;
+		this.accountNumber = accountNumber;
+		this.text = text;
+	}
+
+	public Money getAmount() {
+		return amount;
+	}
+
+	public AccountNumber getAccountNumber() {
+		return accountNumber;
+	}
+	
+	@Override
+	public String getText() {
+		return text;
+	}
+}

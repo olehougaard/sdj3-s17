@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.dell.toadext.postgre.detailviewer.PgQueryResultViewer">
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#room">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#accounts">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#account_types">
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#hotel">
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#bank_transactions">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="2b7d5abb-cedd-4697-a7ff-e813fa32777f#customers">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+	</section>
+</section>

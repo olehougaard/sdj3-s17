@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+nowarn=false
+org.scala-ide.sdt.core.preferences.Templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.scalaide.ui.config.scalaHoverCss=/* It is also possible to change the font configuration here.\r\n * If one is configured, it will be preferred instead of the one\r\n * in the "Colors and Fonts" preference page.\r\n */\r\nhtml {}\r\n\r\nbody {\r\n  overflow\: auto;\r\n  margin\: 0.3em;\r\n}\r\n\r\nul {\r\n  list-style\: square;\r\n  margin-top\: 0;\r\n  margin-bottom\: 0;\r\n  margin-left\: 1em;\r\n}\r\n\r\nli {\r\n  margin-top\: 0.3em;\r\n  margin-bottom\: 0;\r\n}\r\n\r\ncode {\r\n  font-family\: monospace;\r\n  background-color\: \#eee;\r\n}\r\n\r\npre {\r\n  overflow\: auto;\r\n  background-color\: \#eee;\r\n}\r\n
